@@ -5,10 +5,10 @@ import requests
 import telegram
 import azure.functions as func
 
-my_token = '6150296022:AAEVlskH5IwQu7Wkru0NkwqJBqTcM6P_RCc' # Telegram API
-chat_id = 5819768326 # Telegram Chating room ID
-token = "secret_rvjpkymAcp6B11Vgs2cvsDs6lAyDkMUGvtuoZlV472d" # Notion API TOKEN
-databaseId = "b2131b5f967c41a4bf8820e056a8c77b" # Database ID
+my_token = '' # Telegram API
+chat_id =  # Telegram Chating room ID
+token = "" # Notion API TOKEN
+databaseId = "" # Database ID
 bot = telegram.Bot(token=my_token)
 
 def sendmessage(text):
